@@ -11,6 +11,7 @@ import * as GOOGLE_POLLEN from "./adapters/google_pollen.js";
 // Stub-konfigurationer
 import { stubConfigPP } from "./adapters/pp.js";
 import { stubConfigDWD } from "./adapters/dwd.js";
+import { stubConfigDWD } from "./adapters/google_pollen.js";
 
 // Statiska konstanter
 import {
