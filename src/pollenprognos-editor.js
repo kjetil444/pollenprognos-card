@@ -12,6 +12,7 @@ import {
   PP_POSSIBLE_CITIES,
   DWD_REGIONS,
   ALLERGEN_TRANSLATION,
+  GOOGLE_POLLEN_POSSIBLE_CITIES, 
 } from "./constants.js";
 
 // Recursive merge utility
