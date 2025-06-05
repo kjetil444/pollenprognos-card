@@ -5,6 +5,8 @@ import { normalize } from "./utils/normalize.js";
 // Stub-config från adaptrar (så att editorn vet vilka fält som finns)
 import { stubConfigPP } from "./adapters/pp.js";
 import { stubConfigDWD } from "./adapters/dwd.js";
+import { stubConfigDWD } from "./adapters/google_pollen.js";
+
 
 import {
   PP_POSSIBLE_CITIES,
