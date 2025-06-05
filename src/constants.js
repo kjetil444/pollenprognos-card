@@ -2,10 +2,12 @@
 
 import * as PP from "./adapters/pp.js";
 import * as DWD from "./adapters/dwd.js";
+import * as GOOGLE_POLLEN from "./adapters/google_pollen.js"; // Add this line
 
 export const ADAPTERS = {
   pp: PP,
   dwd: DWD,
+  google_pollen: GOOGLE_POLLEN, // Add Google Pollen here
 };
 
 export const DWD_REGIONS = {
@@ -62,6 +64,11 @@ export const ALLERGEN_TRANSLATION = {
   graeser: "grass", // från 'gräser'
   beifuss: "mugwort", // från 'beifuss'
   roggen: "rye",
+
+  // Add Google Pollen allergens
+  tree: "Tree Pollen",
+  grass: "Grass Pollen",
+  weed: "Weed Pollen",
 };
 
 export const PP_POSSIBLE_CITIES = [
@@ -88,3 +95,10 @@ export const PP_POSSIBLE_CITIES = [
   "Västervik",
   "Östersund",
 ];
+
+export const GOOGLE_POLLEN_POSSIBLE_CITIES = [
+  "Oslo",
+  "Stockholm",
+  "Berlin",
+  "Amsterdam",
+]; // Modify based on available coverage
