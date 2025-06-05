@@ -6,6 +6,7 @@ import { t, detectLang } from "./i18n.js";
 // Adapter-moduler
 import * as PP from "./adapters/pp.js";
 import * as DWD from "./adapters/dwd.js";
+import * as GOOGLE_POLLEN from "./adapters/google_pollen.js";
 
 // Stub-konfigurationer
 import { stubConfigPP } from "./adapters/pp.js";
