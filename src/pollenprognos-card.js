@@ -21,7 +21,7 @@ import {
   PP_POSSIBLE_CITIES,
 } from "./constants.js";
 
-const ADAPTERS = CONSTANT_ADAPTERS; // { pp: PP, dwd: DWD }
+const ADAPTERS = CONSTANT_ADAPTERS; // { pp: PP, dwd: DWD, google_pollen: Google Pollen }
 
 class PollenPrognosCard extends LitElement {
   get debug() {
